@@ -1,0 +1,127 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 1rem;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  transform: translateY(-5px);
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+
+main {
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main h2 {
+  margin-bottom: 2rem;
+}
+
+article {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article img {
+  max-width: 50%;
+  height: auto;
+}
+article p {
+  margin-left: 10px;
+}
+
+form {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div {
+  width: 30%;
+}
+
+footer p, 
+footer a {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
